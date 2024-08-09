@@ -35,28 +35,28 @@ const Content = () => {
                     <FaDollarSign className='over-icon'/>
                     <div className='overview-div-div'>
                         <p className='over-para'>Total Income</p>
-                        <p className='over-para-1'>{data.overview.totalIncome}</p>
+                        <p className='over-para-1'>${data.overview.totalIncome}</p>
                     </div>
                   </div>
                   <div className='overview-div-2'>
                     <FcMoneyTransfer className='over-icon'/>
                     <div className='overview-div-div'>
                         <p className='over-para'>Total Expenses</p>
-                        <p className='over-para-1'>{data.overview.totalExpenses}</p>
+                        <p className='over-para-1'>${data.overview.totalExpenses}</p>
                     </div>
                   </div>
                   <div className='overview-div-3'>
                     <MdOutlineAccountBalanceWallet className='over-icon'/>
                     <div className='overview-div-div'>
                         <p className='over-para'>Total Savings</p>
-                        <p className='over-para-1'>{data.overview.totalSavings}</p>
+                        <p className='over-para-1'>${data.overview.totalSavings}</p>
                     </div>
                   </div>
                   <div className='overview-div-4'>
                     <RiFundsBoxLine className='over-icon'/>
                     <div className='overview-div-div'>
                         <p className='over-para'>Total Investments</p>
-                        <p className='over-para-1'>{data.overview.totalInvestments}</p>
+                        <p className='over-para-1'>${data.overview.totalInvestments}</p>
                     </div>
                   </div>
                 </div>
@@ -127,28 +127,28 @@ const Content = () => {
                       <FaDollarSign className='over-icon'/>
                       <div className='overview-div-div'>
                           <p className='over-para'>Total Income</p>
-                          <p className='over-para-1'>{data.overview.totalIncome}</p>
+                          <p className='over-para-1'>${data.overview.totalIncome}</p>
                       </div>
                     </div>
                     <div className='overview-div-2'>
                       <FcMoneyTransfer className='over-icon'/>
                       <div className='overview-div-div'>
                           <p className='over-para'>Total Expenses</p>
-                          <p className='over-para-1'>{data.overview.totalExpenses}</p>
+                          <p className='over-para-1'>${data.overview.totalExpenses}</p>
                       </div>
                     </div>
                     <div className='overview-div-3'>
                       <MdOutlineAccountBalanceWallet className='over-icon'/>
                       <div className='overview-div-div'>
                           <p className='over-para'>Total Savings</p>
-                          <p className='over-para-1'>{data.overview.totalSavings}</p>
+                          <p className='over-para-1'>${data.overview.totalSavings}</p>
                       </div>
                     </div>
                     <div className='overview-div-4'>
                       <RiFundsBoxLine className='over-icon'/>
                       <div className='overview-div-div'>
                           <p className='over-para'>Total Investments</p>
-                          <p className='over-para-1'>{data.overview.totalInvestments}</p>
+                          <p className='over-para-1'>${data.overview.totalInvestments}</p>
                       </div>
                     </div>
                   </div>
