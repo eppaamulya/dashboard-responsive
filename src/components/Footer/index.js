@@ -26,7 +26,7 @@ const Footer = () => {
                             <footer className='footer-light'>
                                 <div className='foot-div'>
                                     <FaRegCopyright className='icony'/>
-                                    <h1 className='foot-main'>2022 Horizon UI. All Rights Reserved. Made with love by simmmmple!</h1>
+                                    <h1 className='foot-main'>2024 Bare kaab. All Rights Reserved. Made with love by simmmmple!</h1>
                                 </div>
                                 <ul className='foot-list'>
                                     <li className='foot-list-item'>Marketplace</li>
