@@ -63,7 +63,7 @@ const Content = () => {
                 <div className='charts-container'>
                   <div className='charts-container-1-dark'>
                     <h2 className='chart-title-dark'>Monthly Expenses Breakdown</h2>
-                    <BarChart width={450} height={300} data={data.monthlyExpenses}>
+                    <BarChart width={450} height={300} data={data.monthlyExpenses} loading="lazy">
                       <CartesianGrid strokeDasharray="3 3" />
                       <XAxis dataKey="month" />
                       <YAxis />
@@ -75,7 +75,7 @@ const Content = () => {
                   </div>
                   <div className='charts-container-1-dark'>
                     <h2 className='chart-title-dark'>Savings Growth</h2>
-                    <LineChart width={450} height={300} data={data.savingsGrowth}>
+                    <LineChart width={450} height={300} data={data.savingsGrowth} loading="lazy">
                       <CartesianGrid strokeDasharray="3 3" />
                       <XAxis dataKey="month" />
                       <YAxis />
@@ -86,14 +86,14 @@ const Content = () => {
                   </div>
                   <div className='charts-container-1-dark'>
                     <h2 className='chart-title-dark'>Investments Distribution</h2>
-                    <PieChart width={450} height={400}>
+                    <PieChart width={450} height={400} loading="lazy">
                       <Pie data={data.investmentsDistribution} dataKey="value" nameKey="category" cx="50%" cy="50%" outerRadius={100} fill="#8884d8" label />
                       <Tooltip />
                     </PieChart>
                   </div>
                   <div className='charts-container-1-dark'>
                     <h2 className='chart-title-dark'>Expense Trends</h2>
-                    <AreaChart width={450} height={300} data={data.expenseTrends}>
+                    <AreaChart width={450} height={300} data={data.expenseTrends} loading="lazy">
                       <CartesianGrid strokeDasharray="3 3" />
                       <XAxis dataKey="month" />
                       <YAxis />
@@ -105,7 +105,7 @@ const Content = () => {
                   </div>
                   <div className='charts-container-1-dark'>
                     <h2 className='chart-title-dark'>Budget vs Actual</h2>
-                    <BarChart width={450} height={300} data={data.budgetVsActual}>
+                    <BarChart width={450} height={300} data={data.budgetVsActual} loading="lazy">
                       <CartesianGrid strokeDasharray="3 3" />
                       <XAxis dataKey="category" />
                       <YAxis />
@@ -155,7 +155,7 @@ const Content = () => {
                   <div className='charts-container'>
                     <div className='charts-container-1'>
                       <h2 className='chart-title'>Monthly Expenses Breakdown</h2>
-                      <BarChart width={450} height={300} data={data.monthlyExpenses}>
+                      <BarChart width={450} height={300} data={data.monthlyExpenses} loading="lazy">
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
                         <YAxis />
@@ -167,7 +167,7 @@ const Content = () => {
                     </div>
                     <div className='charts-container-1'>
                       <h2 className='chart-title'>Savings Growth</h2>
-                      <LineChart width={450} height={300} data={data.savingsGrowth}>
+                      <LineChart width={450} height={300} data={data.savingsGrowth} loading="lazy">
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
                         <YAxis />
@@ -178,14 +178,14 @@ const Content = () => {
                     </div>
                     <div className='charts-container-1'>
                       <h2 className='chart-title'>Investments Distribution</h2>
-                      <PieChart width={450} height={400}>
+                      <PieChart width={450} height={400} loading="lazy">
                         <Pie data={data.investmentsDistribution} dataKey="value" nameKey="category" cx="50%" cy="50%" outerRadius={100} fill="#8884d8" label />
                         <Tooltip />
                       </PieChart>
                     </div>
                     <div className='charts-container-1'>
                       <h2 className='chart-title'>Expense Trends</h2>
-                      <AreaChart width={450} height={300} data={data.expenseTrends}>
+                      <AreaChart width={450} height={300} data={data.expenseTrends} loading="lazy">
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="month" />
                         <YAxis />
@@ -197,7 +197,7 @@ const Content = () => {
                     </div>
                     <div className='charts-container-1'>
                       <h2 className='chart-title'>Budget vs Actual</h2>
-                      <BarChart width={450} height={300} data={data.budgetVsActual}>
+                      <BarChart width={450} height={300} data={data.budgetVsActual} loading="lazy">
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="category" />
                         <YAxis />
