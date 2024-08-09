@@ -23,7 +23,6 @@ class App extends Component {
           <Routes>
             <Route exact path="/" element={<Home />} />
           </Routes>
-
         </AppContext.Provider>
       </>
       
