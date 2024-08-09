@@ -1,0 +1,123 @@
+/* .footer-dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    
+    
+}
+
+.footer-light {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(40, 6, 141);
+    
+    
+}
+
+.foot-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.icony {
+    margin-top: 0px;
+}
+
+.foot-main {
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.foot-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.foot-list-item {
+    font-size: 15px;
+    list-style-type: none;
+    margin: 20px;
+} */
+
+
+/* Footer styles for dark theme */
+.footer-dark, .footer-light {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff; /* Default color for dark theme */
+    padding: 20px;
+}
+
+.footer-light {
+    color: rgb(40, 6, 141); /* Color for light theme */
+}
+
+.foot-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icony {
+    margin-top: 0;
+}
+
+.foot-main {
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.foot-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.foot-list-item {
+    font-size: 15px;
+    list-style-type: none;
+    margin: 20px;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .footer-dark, .footer-light {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .foot-div {
+        margin-bottom: 10px;
+    }
+
+    .foot-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .foot-list-item {
+        margin: 10px 0;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .foot-main {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .foot-list-item {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+}
